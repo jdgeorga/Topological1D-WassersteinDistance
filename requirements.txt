@@ -1,0 +1,9 @@
+torch>=2.0.1
+numpy
+scipy
+ase
+nequip
+moirecompare
+matplotlib
+psutil
+ot
