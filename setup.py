@@ -27,4 +27,11 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.9',
+        extras_require={
+        'test': [
+            'pytest>=6.0',
+            'pytest-cov>=2.0',
+            'pytest-mock>=3.0',
+        ],
+    },
 )
